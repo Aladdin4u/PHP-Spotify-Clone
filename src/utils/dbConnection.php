@@ -1,6 +1,6 @@
 <?php
 // Database connection 
-$conn = mysqli_connect('db', 'user', 'root', 'myspotify');
+$conn = mysqli_connect('db', 'user', 'user', 'myspotify');
 
 mysqli_set_charset($conn, "utf8");
 
